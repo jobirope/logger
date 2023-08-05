@@ -6,6 +6,6 @@ import (
 
 var Version string = "1.0"
 
-func Log(mess string) {
-	fmt.Println("[LOG] " + mess)
+func Log(message string) {
+	fmt.Println("[LOG] " + message)
 }
